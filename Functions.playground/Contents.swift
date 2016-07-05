@@ -8,7 +8,7 @@ sayHello()
 
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
-//print(greeting)
+//print(greeting) //its outside the scope
 
 
 func sayHelloToGarfield() {
@@ -34,4 +34,4 @@ let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
 // Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+//sayHelloToCat() //needs an argument of a string
